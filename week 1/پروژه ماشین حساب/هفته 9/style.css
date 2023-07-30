@@ -1,0 +1,31 @@
+body{
+    background: #dad8d8;
+}
+.calculator{
+    margin:8% auto;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 0 20px #999;
+    font-size: 34px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.calculator div{
+    margin: 5px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+.calculator div:hover{
+    box-shadow:0 0 5px #999;
+    cursor: pointer;
+}
+.zero{
+    grid-column: 1/4;
+}
+.resalt{
+    grid-column: 1/4;
+    height: 50px;
+}
