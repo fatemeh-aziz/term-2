@@ -9,8 +9,6 @@ interface prop{
     mydata:Array<product>
 }
 
-
-
 export default function MyTable({mydata}:prop) {
 
  const [mydataState,setmydataState]=useState(mydata);
