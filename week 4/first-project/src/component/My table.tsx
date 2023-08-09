@@ -1,46 +1,53 @@
 import {useState} from "react";
+import AddForm from "@/component/AddForm";
 
 interface product {
-    ID:number,
-    name:string,
-    price:number,
-}
-interface prop{
-    mydata:Array<product>
+    ID: number,
+    name: string,
+    price: number,
 }
 
-export default function MyTable({mydata}:prop) {
+interface prop {
+    mydata: Array<product>
+}
 
- const [mydataState,setmydataState]=useState(mydata);
+export default function MyTable({mydata, caption}) {
 
- const deleteHandler=(id:number) =>{
-    let result=mydataState.filter((item)=>{
-        return item.ID !== id
-    });
-    setmydataState(result);
- }
+    const [mydataState, setmydataState] = useState(mydata);
+
+    const deleteHandler = (id: number) => {
+        let result = mydataState.filter((item) => {
+            return item.ID !== id
+        });
+        setmydataState(result);
+    }
     return (
-        <table className={"w-full bg-white text-black text-center"}>
-            {
-                caption && <caption style={{captionSide: "bottom"}}>{caption}</caption>
-            }
-            <tbody>
-            {
-                mydata.map((item:product,index:number)=> {
-                    return(
-                    <tr>
-                        <td className={"border"}>{mydata.ID}</td>
-                        <td className={"border"}>{mydata.name}</td>
-                        <td className={"border"}>{mydata.price}</td>
-                        <td className={"border"}>
-                            <button onClick={()=>{deleteHandler(item.ID)}}>delete</button>
-                        </td>
-                    </tr>
-                    )
-                })
-            }
-            </tbody>
-
-        </table>
+        <>
+            <AddForm/>
+            <table className={"w-full bg-white text-black text-center"}>
+                {
+                    caption && <caption style={{captionSide: "bottom"}}>{caption}</caption>
+                }
+                <tbody>
+                {
+                    mydataState.map((item: product, index: number) => {
+                        return (
+                            <tr>
+                                <td className={"border"}>{item.ID}</td>
+                                <td className={"border"}>{item.name}</td>
+                                <td className={"border"}>{item.price}</td>
+                                <td className={"border"}>
+                                    <button onClick={() => {
+                                        deleteHandler(item.ID)
+                                    }}>delete
+                                    </button>
+                                </td>
+                            </tr>
+                        )
+                    })
+                }
+                </tbody>
+            </table>
+        </>
     )
 }

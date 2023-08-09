@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ac0825-d4c1-41fd-b16c-f599b53cdf3b" name="Changes" comment="" />
+    <list default="true" id="78ac0825-d4c1-41fd-b16c-f599b53cdf3b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../week 1/اسلایدر" beforeDir="false" afterPath="$PROJECT_DIR$/../week 1/اسلایدر" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week 1/پروژه امتحان" beforeDir="false" afterPath="$PROJECT_DIR$/../week 1/پروژه امتحان" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week 2/main pro" beforeDir="false" afterPath="$PROJECT_DIR$/../week 2/main pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/component/My table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/component/My table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/pages/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../week 2/main pro" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\Users\aLmA\Desktop\تمرین های کد نویسی html\sample\term 2\week 3\first-project\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\aLmA\Desktop\تمرین های کد نویسی html\sample\term 2\week 4\first-project\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,6 +54,7 @@
       <workItem from="1691423969967" duration="27000" />
       <workItem from="1691424334536" duration="276000" />
       <workItem from="1691483771998" duration="22000" />
+      <workItem from="1691593603394" duration="5386000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1691356517480</created>
@@ -61,7 +70,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691403279799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="com">
+      <created>1691593971892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691593971892</updated>
+    </task>
+    <task id="LOCAL-00004" summary="com">
+      <created>1691594214328</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691594214328</updated>
+    </task>
+    <task id="LOCAL-00005" summary="com">
+      <created>1691594242466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691594242466</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
