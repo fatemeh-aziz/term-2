@@ -6,7 +6,6 @@ interface product {
     name: string,
     price: number,
 }
-
 interface prop {
     mydata: Array<product>
 }
@@ -23,7 +22,7 @@ export default function MyTable({mydata, caption}) {
     }
     return (
         <>
-            <AddForm/>
+            <AddForm mydataState={mydataState} setmydataState={setmydataState} />
             <table className={"w-full bg-white text-black text-center"}>
                 {
                     caption && <caption style={{captionSide: "bottom"}}>{caption}</caption>

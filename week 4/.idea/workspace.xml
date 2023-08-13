@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-project/src/component/My table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/component/My table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-project/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../week 2/main pro" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="C:\Users\aLmA\Desktop\تمرین های کد نویسی html\sample\term 2\week 4\first-project\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,7 +61,8 @@
       <workItem from="1691423969967" duration="27000" />
       <workItem from="1691424334536" duration="276000" />
       <workItem from="1691483771998" duration="22000" />
-      <workItem from="1691593603394" duration="5386000" />
+      <workItem from="1691593603394" duration="6474000" />
+      <workItem from="1691610597074" duration="6128000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1691356517480</created>
@@ -91,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691594242466</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="com">
+      <created>1691605181656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691605181656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
