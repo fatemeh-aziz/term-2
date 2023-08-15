@@ -1,25 +1,34 @@
-import React, {useState} from 'react';
+import  {useState} from 'react';
+import type {ChangeEvent, Dispatch, FormEvent, SetStateAction} from 'react';
+import findMaxID from "../../utils/findMaxID";
+import type Product from "@/types/Product";
 
 
-function AddForm({ setmydataState}) {
+interface Prop{
+    setmydataState:Dispatch<SetStateAction<Product[]>>;
+}
+
+function AddForm({ setmydataState}:Prop) {
 
     const [nameState, setNameState] = useState("");
     const [priceState, setPriceState] = useState("");
 
-    const changeNameHandler = (e) => {
+    const changeNameHandler = (e:ChangeEvent<HTMLInputElement>) => {
         setNameState(e.target.value);
     }
-    const changePriceHandler = (e) => {
+    const changePriceHandler = (e:ChangeEvent<HTMLInputElement>) => {
         setPriceState(e.target.value);
     }
-    const submitHandler = (e) => {
+    const submitHandler = (e:FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setmydataState((prevState)=>{
+        setmydataState((prevState:Product[])=>{
+            let result:Product={
+                name: nameState,
+                price:number (priceState),
+                ID:findMaxID(prevState)+1
+            }
             return[
-                ...prevState,{
-                    name: nameState,
-                    price: priceState,
-                }
+                ...prevState,result
             ]
         })
         setPriceState("");

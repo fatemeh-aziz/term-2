@@ -1,13 +1,13 @@
 import {useState} from "react";
 import AddForm from "@/components/AddForm"
 
-interface product {
+interface Product {
     ID: number,
     name: string,
     price: number,
 }
-interface prop {
-    mydata: Array<product>
+interface Prop {
+    mydata: Array<Product>
 }
 
 export default function MyTable({mydata, caption}) {
