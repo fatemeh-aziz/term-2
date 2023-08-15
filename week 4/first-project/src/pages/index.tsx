@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import MyTable from "@/component/My table"
+import MyTable from '@/components/My table'
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 

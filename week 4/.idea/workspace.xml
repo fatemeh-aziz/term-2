@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ac0825-d4c1-41fd-b16c-f599b53cdf3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/first-project/src/components/AddForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-project/src/components/My table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-project/utils/findMaxID.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week 1/اسلایدر" beforeDir="false" afterPath="$PROJECT_DIR$/../week 1/اسلایدر" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week 1/پروژه امتحان" beforeDir="false" afterPath="$PROJECT_DIR$/../week 1/پروژه امتحان" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week 2/main pro" beforeDir="false" afterPath="$PROJECT_DIR$/../week 2/main pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-project/src/component/My table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/component/My table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/component/AddForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/component/My table.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/first-project/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,7 +73,7 @@
       <workItem from="1691424334536" duration="276000" />
       <workItem from="1691483771998" duration="22000" />
       <workItem from="1691593603394" duration="6474000" />
-      <workItem from="1691610597074" duration="6128000" />
+      <workItem from="1691610597074" duration="14132000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1691356517480</created>
@@ -106,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691605181656</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="com">
+      <created>1691923088959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691923088959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

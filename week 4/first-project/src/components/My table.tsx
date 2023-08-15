@@ -1,5 +1,5 @@
 import {useState} from "react";
-import AddForm from "@/component/AddForm";
+import AddForm from "@/components/AddForm"
 
 interface product {
     ID: number,
@@ -22,8 +22,8 @@ export default function MyTable({mydata, caption}) {
     }
     return (
         <>
-            <AddForm mydataState={mydataState} setmydataState={setmydataState} />
-            <table className={"w-full bg-white text-black text-center"}>
+            <AddForm  setmydataState={setmydataState} />
+            <table className={"w-full bg-white text-black text-center bg-gray-100"}>
                 {
                     caption && <caption style={{captionSide: "bottom"}}>{caption}</caption>
                 }
@@ -35,8 +35,8 @@ export default function MyTable({mydata, caption}) {
                                 <td className={"border"}>{item.ID}</td>
                                 <td className={"border"}>{item.name}</td>
                                 <td className={"border"}>{item.price}</td>
-                                <td className={"border"}>
-                                    <button onClick={() => {
+                                <td className={"border "}>
+                                    <button className={" py-2 bg-red-500 px-6 rounded"} onClick={() => {
                                         deleteHandler(item.ID)
                                     }}>delete
                                     </button>
