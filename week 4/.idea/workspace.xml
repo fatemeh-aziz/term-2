@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ac0825-d4c1-41fd-b16c-f599b53cdf3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/src/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/src/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/src/pages/api/hello.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/src/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-APP/weather-app/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week 1/اسلایدر" beforeDir="false" afterPath="$PROJECT_DIR$/../week 1/اسلایدر" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week 1/پروژه امتحان" beforeDir="false" afterPath="$PROJECT_DIR$/../week 1/پروژه امتحان" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week 2/main pro" beforeDir="false" afterPath="$PROJECT_DIR$/../week 2/main pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-APP/weather-app/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/weather-APP/weather-app/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +68,7 @@
       <workItem from="1691483771998" duration="22000" />
       <workItem from="1691593603394" duration="6474000" />
       <workItem from="1691610597074" duration="17717000" />
-      <workItem from="1692095701145" duration="1295000" />
+      <workItem from="1692095701145" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1691356517480</created>
@@ -156,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692095605946</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="com">
+      <created>1692097451898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692097451898</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
