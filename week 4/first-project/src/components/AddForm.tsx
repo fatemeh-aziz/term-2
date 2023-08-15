@@ -8,7 +8,7 @@ interface Prop{
     setmydataState:Dispatch<SetStateAction<Product[]>>;
 }
 
-function AddForm({ setmydataState}:Prop) {
+function AddForm({setmydataState}:Prop) {
 
     const [nameState, setNameState] = useState("");
     const [priceState, setPriceState] = useState("");
@@ -24,7 +24,7 @@ function AddForm({ setmydataState}:Prop) {
         setmydataState((prevState:Product[])=>{
             let result:Product={
                 name: nameState,
-                price:number (priceState),
+                price:Number(priceState),
                 ID:findMaxID(prevState)+1
             }
             return[

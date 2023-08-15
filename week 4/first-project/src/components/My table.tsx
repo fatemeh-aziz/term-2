@@ -29,7 +29,7 @@ export default function MyTable({mydata, caption}) {
                 }
                 <tbody>
                 {
-                    mydataState.map((item: product, index: number) => {
+                    mydataState.map((item: Product, index: number) => {
                         return (
                             <tr>
                                 <td className={"border"}>{item.ID}</td>
