@@ -11,19 +11,27 @@ interface Props {
 
 export default function Weather({city}: Props) {
     const [weatherState, setWeatherState] = useState<Weather>({
-        city: city,
-        wind: "",
-        humidity: "",
+        city: "",
+        wind: 0,
+        humidity: 0,
         description: "",
         icon: "",
         daily: [],
        }
     );
 
-    
-    const getWeatherData = async ({city}: string) => {
+
+    const getWeatherData = async (city: string) => {
         const response = await callWeatherApi({city});
-        console.log(response)
+        const weather={
+            city:response.name,
+            wind:response.wind.speed,
+            humidity:response.main.humidity,
+            description:response.weather[0].description,
+            icon:response.weather[0].icon,
+            daily:[]
+        }
+        setWeatherState(weather)
     }
 
     if (weatherState.city.length === 0) {
@@ -32,8 +40,8 @@ export default function Weather({city}: Props) {
 
 
     return (
-        <div>
-            <SearchForm/>
+        <div className={"bg-white shadow mt-4 rounded-2xl p-8 py-16"}>
+            <SearchForm getWeatherData={getWeatherData}/>
             <WeatherInfo/>
             <ForecatList/>
         </div>
