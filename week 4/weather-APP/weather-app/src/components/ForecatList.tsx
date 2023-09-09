@@ -1,8 +1,23 @@
 import React from 'react';
+import type {ForcastResponse,Daily} from "@/types/api/ForcastResponse";
+import ForecastItem from "@/components/ForecastItem";
 
-function ForecatList(props) {
+interface Props {
+    forecast:ForcastResponse
+}
+
+function ForecatList({forecast}:Props) {
     return (
-        <div></div>
+        <div>
+            {
+                forecast.daily.map((item:Daily)=>{
+                  return(
+
+                  )
+                })
+            }
+            <ForecastItem/>
+        </div>
     );
 }
 
