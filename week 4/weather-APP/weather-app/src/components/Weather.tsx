@@ -35,7 +35,8 @@ export default function Weather({city}: Props) {
         setWeatherState(weather);
 
 
-        const forecastResponse=await callForecastApi({lat:response.coord.lat,lon:response.coord.lon})
+        const forecastResponse=
+            await callForecastApi({lat:response.coord.lat,lon:response.coord.lon})
          setForecastState(forecastResponse)
     }
 
