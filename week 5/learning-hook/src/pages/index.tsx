@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import {Inter} from 'next/font/google'
 import {useState} from "react";
-import Message from "@/copmonents/Message";
+import Message from "@/components/Message";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -25,7 +25,7 @@ export default function Home() {
                 <li>2</li>
                 <li>3</li>
                 <li>
-                    {showMessage &&<Message msg={"hello"}/>}
+                    {showMessage &&< Message msg={"hello"}/>}
                 </li>
             </ul>
             <button className={'rounded border p-3 mx-auto my-2 w-[200px]'} onClick={incClickHandler}>inc counter</button>
