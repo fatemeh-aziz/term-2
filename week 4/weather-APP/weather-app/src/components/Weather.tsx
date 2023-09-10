@@ -49,7 +49,7 @@ export default function Weather({city}: Props) {
         <div className={"bg-white shadow mt-4 rounded-2xl mx-auto w-[600px] p-8 py-16"}>
             <SearchForm city={city} getWeatherData={getWeatherData}/>
             <WeatherInfo weather={weatherState}/>
-            <ForecatList forecast={forecastState}/>
+            {forecastState && <ForecatList forecast={forecastState}/>}
         </div>
     )
 }

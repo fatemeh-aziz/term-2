@@ -7,7 +7,7 @@ interface Props {
 }
 
 function ForecatList({forecast}: Props) {
-  let day = new Date(item.dt * 1000).toLocaleString('en-us', {weekday: 'long'})
+  let day = new Date (item.dt * 1000).toLocaleString('en-us', {weekday: 'long'})
     return (
         <div className={"grid grid-cols-8"}>
             {
